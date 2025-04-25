@@ -4,6 +4,7 @@ import sys
 import tkinter as tk
 from tkinter import messagebox
 import threading
+from dotenv import load_dotenv
 from tkinter import ttk
 import pandas as pd
 from scapy.all import sniff, IP, TCP, UDP, Raw, DNS, DNSQR
@@ -16,9 +17,9 @@ from datetime import datetime
 import schedule
 import time
 from queue import Queue
+load_dotenv()
 
-
-ABUSE_API_KEY = "23825c7729c2378d908cdfe4894a0b0f3e98b057d8f3a5e33b50fae564de87c2dbad9df83575dd00" 
+ABUSE_API_KEY = os.getenv("ABUSE_API_KEY")
 BLACKLIST_CACHE_FILE = "blacklist_cache.csv"
 blacklist_cache = {}
 
