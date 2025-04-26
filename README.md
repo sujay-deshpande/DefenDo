@@ -3,6 +3,10 @@
 
 A powerful GUI-based network traffic analysis tool with real-time monitoring, threat detection, and automated reporting capabilities.
 
+<p align="center">
+  <img src="assets/defendo.jpg" alt="Logo" width="800"/>
+</p>
+
 ## Features
 
 - 🕵️ Real-time packet sniffing and analysis
