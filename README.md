@@ -7,6 +7,9 @@ A powerful GUI-based network traffic analysis tool with real-time monitoring, th
   <img src="assets/defendo.jpg" alt="Logo" width="800"/>
 </p>
 
+
+
+
 ## Features
 
 - 🕵️ Real-time packet sniffing and analysis
@@ -17,6 +20,13 @@ A powerful GUI-based network traffic analysis tool with real-time monitoring, th
 - 🔍 Suspicious payload detection
 - 📂 Local blacklist caching system
 - ⚡ Multi-threaded processing
+
+<p align="center">
+  <a href="https://youtu.be/JLPN1nzX2_U" target="_blank">
+    <img src="https://img.youtube.com/vi/JLPN1nzX2_U/0.jpg" alt="Watch the video" width="300" />
+  </a>
+</p>
+
 
 ## Prerequisites
 
